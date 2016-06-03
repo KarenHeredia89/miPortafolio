@@ -191,10 +191,6 @@ h1 {
 #svgResponsive, #svgTipoResponsive {
   visibility: hidden;
 }
-.foquito img {
-  visibility: hidden;
-  display: none;
-}
 @media(min-width:0px) and (max-width:800px) {
 	#mainNav {
 		width: 100%;
@@ -214,23 +210,6 @@ h1 {
   }
   #svg #Capa_1 {
     width: 90%;
-  }
-  .nav ul {
-    background-color: #2d3538;
-    position: fixed;
-    bottom: 510px;
-    top: 0px;
-    left:0px;
-    font-size: 17px;
-    z-index: 1000;
-  }
-  .navegador li {
-    padding-top: 10px;
-
-  }
-  .foquito img {
-    visibility: visible;
-    display: inline-block;
   }
   #svgTipo {
     display: none;
