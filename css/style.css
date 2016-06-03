@@ -63,12 +63,12 @@ li {
 h1 {
 	font-family: Just Another Hand !important;
 }
-.row.no-gutters {
+.row {
   margin-right: 0;
   margin-left: 0;
 }
-.row.no-gutters > [class^="col-"],
-.row.no-gutters > [class*=" col-"] {
+.row> [class^="col-"],
+.row> [class*=" col-"] {
   padding-right: 0;
   padding-left: 0;
 }
@@ -197,6 +197,16 @@ h1 {
 		height: 800px;
     position: relative;
 	}
+  .nav ul {
+    position: fixed;
+    bottom: 310px;
+    width: 100%;
+    font-size: 30px;
+  }
+  .navegador li {
+    display: inline-block;
+    margin-right: 5%;
+  }
   #svgResponsive {
     visibility: visible;
     margin: 10% 0%;
