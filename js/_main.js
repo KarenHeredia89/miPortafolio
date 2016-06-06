@@ -38,19 +38,3 @@ function adjustWindow(){
     }
  
 }
-function adjustWindow(){
-    ...
-}
-  
-function initAdjustWindow() {
-    return {
-        match : function() {
-            adjustWindow();
-        },
-        unmatch : function() {
-            adjustWindow();
-        }
-    };
-}
-
-enquire.register("screen and (min-width : 768px)", initAdjustWindow(), false);
