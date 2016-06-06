@@ -5,8 +5,8 @@ function adjustWindow(){
     winW = $window.width();
      
     // Keep minimum height 550
-    if(winH <= 0) {
-        winH = 0;
+    if(winH <= 550) {
+        winH = 550;
     }
      
     // Init Skrollr for 768 and up

@@ -1,22 +1,16 @@
-.skrollr-body {
-  position: absolute;
-}
 .main {
   background: #2d3538;
-  position: absolute;
-  width: 100%;
-  height: 3079px;
+  position: fixed;
+  width: 50%;
+  height: 100%;
   padding: 40px 0px;
+  z-index: 1000;
 }
 .uno {
   background: url(../img/uno.png) repeat fixed; 
   height: 100%;
   padding: 0;
   margin: 0;
-}
-.dos {
-  background: url(../img/dos.png) repeat fixed; 
-  height: 100%;
 }
 .navbar ul {
 	position: relative;
@@ -218,9 +212,10 @@ h1 {
 		width: 100%;
 		height: 100%;
     position: relative;
+    z-index: 1000;
     
 	}
-  .skrollr-body {
+  .body {
     position: relative;
   }
   .navbar-default {
