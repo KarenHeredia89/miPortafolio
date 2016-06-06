@@ -944,6 +944,11 @@
 	        forceHeight: false
 	    });
 		</script>
-		<script src="js/_main.js"></script>
+		<script type="text/javascript">
+		var s = skrollr.init();
+		if (s.isMobile()) {
+		    s.destroy();
+		}
+		</script>
 	</body>
 </html>
