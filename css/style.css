@@ -242,6 +242,7 @@ h1 {
     display: none;
   }
   .imgResponsive {
+    background: url(../img/uno.png);
     visibility: visible;
     position: relative;
   }
