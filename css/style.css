@@ -207,7 +207,7 @@ h1 {
   border: transparent;
 }
 
-@media(min-width:0px) and (max-width:768px) {
+@media only screen and (min-width:0px) and (max-width:768px) {
 	.main {
 		width: 100%;
 		height: 100%;
@@ -253,8 +253,14 @@ h1 {
   .elscroll img {
     display: none;
   }
+  #aboutMe {
+    padding: 5%;
+  }
   #aboutMe p {
     padding: 10px 20px 0;
+  }
+  #hab {
+    margin: 5% 0 0;
   }
   .adobeResponsive {
     visibility: visible;
@@ -265,3 +271,27 @@ h1 {
     display: none;
   }
 }
+@media only screen 
+  and (min-device-width:768px) 
+  and (max-device-width:1024px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    
+    .imgResponsive img {
+      width: 30%;
+    }
+    .navbar ul {
+    position: relative;
+    top: 10px;
+    font-size: 25px;
+    }
+    #aboutMe {
+      padding: 5%;
+    }
+    #hab {
+    margin: 5% 0 0;
+    }
+    .adobeResponsive img {
+      width: 40%;
+    }
+  }
