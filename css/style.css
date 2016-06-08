@@ -27,7 +27,7 @@
 }
 .navbar a:hover {
 	color: #99cc99;
-	border-bottom: 2px solid #f2d82c;
+	border-bottom: 4px solid #f2d82c;
 	text-decoration: none;
 }
 #aboutMe {
@@ -39,7 +39,7 @@
 	padding: 10px 50px 0;
 }
 #hab {
-	margin: 20% 0 0;
+	margin: 10% 0 0;
 }
 .adobe img, .adobeResponsive img {
 	width: 60%;
@@ -191,6 +191,17 @@ h1 {
 }
 .redes {
 	margin: 30px 0px 100px;
+}
+.redes li .download {
+  color: #1a1a1a;
+  text-decoration: none;
+}
+.redes h4 {
+  padding-top: 30px;
+  font-weight: bold;
+}
+.redes h4:hover {
+  color: #f2d82c;
 }
 .redes img {
   padding: 5px;
