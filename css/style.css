@@ -1,3 +1,16 @@
+.colaboraciones h1 { margin: 50px 0 !important; }
+
+.colaboraciones a {
+  color: #99cc99;
+  line-height: 160%;
+}
+
+.colaboraciones a:hover {
+  color: #99cc99;
+  text-decoration: none;
+  border-bottom: 3px solid #f2d82c;
+}
+
 .main {
   background: #2d3538;
   position: fixed;
@@ -167,6 +180,7 @@ h1 {
 	margin-top: 10px;
 	margin-right: 15%;
 }
+
 .git {
 	margin: auto;
 	padding-top: 35px;
